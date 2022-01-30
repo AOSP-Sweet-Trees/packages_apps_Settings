@@ -44,10 +44,16 @@
         android:summary="@string/ignore_window_secure_summary"
         android:defaultValue="false"/>
 
-        <com.pixys.support.preferences.SecureSettingSwitchPreference
+        <com.pixys.support.preference.SecureSettingSwitchPreference
                 android:key="qs_show_data_usage"
                 android:title="@string/qs_show_data_usage_title"
                 android:summary="@string/qs_show_data_usage_summary"
                 android:defaultValue="true" />
+
+        <com.pixys.support.preference.SystemSettingSwitchPreference
+            android:key="enable_ripple_effect"
+            android:title="@string/enable_fingerprint_ripple_effect_title"
+            android:summary="@string/enable_fingerprint_ripple_effect_summary"
+            android:defaultValue="true" />
 
 </PreferenceScreen>
