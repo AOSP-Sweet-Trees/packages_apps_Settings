@@ -257,45 +257,6 @@
         android:title="@string/vibrate_icon_title"
         android:order="-27"/>
 
-    <!-- Incall vibration options -->
-    <PreferenceCategory
-        android:key="incall_vib_options"
-        android:title="@string/incall_vibration_category" >
-
-        <com.pixys.support.preference.SystemSettingSwitchPreference
-            android:key="vibrate_on_connect"
-            android:title="@string/incall_vibrate_connect_title"
-            android:defaultValue="false" />
-
-        <com.pixys.support.preference.SystemSettingSwitchPreference
-            android:key="vibrate_on_callwaiting"
-            android:title="@string/incall_vibrate_call_wait_title"
-            android:defaultValue="false" />
-
-        <com.pixys.support.preference.SystemSettingSwitchPreference
-            android:key="vibrate_on_disconnect"
-            android:title="@string/incall_vibrate_disconnect_title"
-            android:defaultValue="false" />
-    </PreferenceCategory>
-
-    <!-- Fingerprint Authentication Vibration options -->
-    <PreferenceCategory
-        android:key="fingerprint_vib_options"
-        android:title="@string/fingerprint_vibration_category" >
-
-        <com.pixys.support.preference.SystemSettingSwitchPreference
-            android:key="fp_success_vibrate"
-            android:title="@string/fp_success_vibrate_title"
-            android:summary="@string/fp_success_vibrate_summary"
-            android:defaultValue="true" />
-
-        <com.pixys.support.preference.SystemSettingSwitchPreference
-            android:key="fp_error_vibrate"
-            android:title="@string/fp_error_vibrate_title"
-            android:summary="@string/fp_error_vibrate_summary"
-            android:defaultValue="true" />
-    </PreferenceCategory>
-
     <!-- Dock speaker plays -->
     <DropDownPreference
         android:key="dock_audio_media"
